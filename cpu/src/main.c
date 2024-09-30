@@ -7,9 +7,6 @@ int main(int argc, char* argv[])
 
 	conectarse_cpu_puerto_memoria();
 
-	enviar_mensaje("Hola desde CPU", conex_cpu_puerto_memoria);
-	//paquete(conex_cpu_puerto_memoria);
-
 	iniciar_servidores_cpu();
 
 	esperar_clientes_cpu();

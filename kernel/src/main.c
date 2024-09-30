@@ -11,10 +11,6 @@ int main(int argc, char* argv[])
 
 	conectarse_kernel_puerto_memoria();
 
-	enviar_mensajes_kernel();
-
-	enviar_paquetes_kernel();
-
 	terminar_programa_kernel();
 	return 0;
 }
